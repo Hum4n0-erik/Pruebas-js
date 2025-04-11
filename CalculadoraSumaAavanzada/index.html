@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./CSS/index.css">
+</head>
+<body>
+    <form>
+        <button class="teclat" type="button" onclick="agregarNum(1)"> 1 </button>
+        <button class="teclat" type="button" onclick="agregarNum(2)"> 2 </button>
+        <button class="teclat" type="button" onclick="agregarNum(3)"> 3 </button> <br> <br>
+        <button class="teclat" type="button" onclick="agregarNum(4)"> 4 </button>
+        <button class="teclat" type="button" onclick="agregarNum(5)"> 5 </button>
+        <button class="teclat" type="button" onclick="agregarNum(6)"> 6 </button> <br> <br>
+        <button class="teclat" type="button" onclick="agregarNum(7)"> 7 </button>
+        <button class="teclat" type="button" onclick="agregarNum(8)"> 8 </button>
+        <button class="teclat" type="button" onclick="agregarNum(9)"> 9 </button> <br> <br>
+        <h3 id="añadidos">Numeros añadidos: </h3>
+        <button class="teclat" type="button" onclick="agregarNum(-1)"> -1 </button>
+        <button class="teclat" type="button" onclick="agregarNum(-2)"> -2 </button>
+        <button class="teclat" type="button" onclick="agregarNum(-3)"> -3 </button> <br> <br>
+        <button class="teclat" type="button" onclick="agregarNum(-4)"> -4 </button>
+        <button class="teclat" type="button" onclick="agregarNum(-5)"> -5 </button>
+        <button class="teclat" type="button" onclick="agregarNum(-6)"> -6 </button> <br> <br>
+        <button class="teclat" type="button" onclick="agregarNum(-7)"> -7 </button>
+        <button class="teclat" type="button" onclick="agregarNum(-8)"> -8 </button>
+        <button class="teclat" type="button" onclick="agregarNum(-9)"> -9 </button> <br> <br>
+
+    </form>
+    <h3 id="resultado"> 0 </h3>
+    <div>
+        <button class="calcula" type='button' onclick="calcul(event)"> <b>Calcula </b> </button> <br><br>
+        <button class="limpiar" type="button" onclick="limpiar(event)"> Limpiar </button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
